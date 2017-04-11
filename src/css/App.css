@@ -1,0 +1,52 @@
+.App {
+  position: relative;
+  text-align: Left;
+}
+
+.App-header {
+  background-color: #004F50;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-content {
+  font-size: large;
+  padding-left: 210px;
+  padding-top: 10px;
+}
+
+.Nav {
+  width: 200px; /* Set a width if you like */
+  height: 100%;
+  position: absolute;
+}
+
+.Nav a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.Nav a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.Nav a.active {
+  background-color: #5FD18B; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.SearchBar {
+  height: 15px;
+  width: 300px;
+
+}
+
+.SearchBar input {
+  height: 15px;
+  width: 300px;
+}
+
