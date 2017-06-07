@@ -2,6 +2,12 @@
 
 Analytics console for the WSDOT website search. Uses a JWT token from an internal server to authenticate the request for search data from Google Analytics.
 
+![image of dashboard showing two charts](https://github.com/WSDOT/search-analytics-console/blob/master/screenshot.png)
+
+### Features
+* Seven and 30 day Top Searches chart.
+* Searches per day and hour. Click a bar to see what users searched for and from where on your site.
+
 ### Set Up
 
 This project requires you to [set up Site Search analytics with Google Anayltics](https://support.google.com/analytics/answer/1012264?hl=en).
