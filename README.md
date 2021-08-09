@@ -19,7 +19,7 @@ This file must include the following 3 items:
 * REACT_APP_GAPI_CLIENT_ID - Used to authorize app for google APIs. See [creating a client id](https://developers.google.com/api-client-library/javascript/features/authentication)
 * REACT_APP_GOOGLE_AUTH_HOST - full URL where the app requests a JWT token for authentication into Google Analytics
 * REACT_APP_ANALYTICS_URL - Link to Google Analytics. Used by nav item.
-* REACT_APP_SEARCH_UR - URL for checking search terms. (ex. https://www.wsdot.wa.gov/search/#q=)
+* REACT_APP_SEARCH_URL - URL for checking search terms. (ex. https://www.wsdot.wa.gov/search/#q=)
 
 Next, run `npm install` and you're good to go.
 To start the dev server run `npm start`. Access at localhost:3000[REACT_APP_HOME]
